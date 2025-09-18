@@ -22,7 +22,7 @@ import jax.numpy as jnp
 
 from flax import linen as nn
 
-from MaxText.layers import attention_mla
+from MaxText.layers import attentions
 from MaxText.layers import initializers
 from MaxText.layers import linears
 from MaxText.common_types import Config

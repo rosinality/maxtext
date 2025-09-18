@@ -533,6 +533,7 @@ skip_jax_distributed_system: False # If True we will not initialize the jax dist
 learning_rate: 3.e-5
 cosine_learning_rate_final_fraction: 0.1
 warmup_steps_fraction: 0.1
+warmup_steps: 2000
 learning_rate_schedule_steps: -1 # By default the length of the schedule is set to the number of steps.
 # However you may choose a longer schedule (learning_rate_schedule_steps > steps), in which case the training will end before
 # dropping fully down. Or you may choose a shorter schedule, where the unspecified steps will have a learning rate of 0.
