@@ -15,7 +15,7 @@ while [ $current_attempt -le $max_attempts ]; do
     else
         echo "Failed to run setup on attempt $current_attempt."
         ((current_attempt++))
-        sleep 5  # Short delay before next attempt
+        sleep 30  # Short delay before next attempt
     fi
 done
 
