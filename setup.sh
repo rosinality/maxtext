@@ -57,7 +57,7 @@ if ! python3 -c 'import sys; assert sys.version_info >= (3, 12)' 2>/dev/null; th
     # Ask for the venv name
     # read -p "Please enter a name for your new virtual environment (default: maxtext_venv): " venv_name
     # Use a default name if the user provides no input
-    venv_name="dev"
+    venv_name="ml"
     # if [ -z "$venv_name" ]; then
     #     venv_name="maxtext_venv"
     #     echo "No name provided. Using default name: '$venv_name'"
@@ -77,7 +77,7 @@ if ! python3 -c 'import sys; assert sys.version_info >= (3, 12)' 2>/dev/null; th
     # exit 1
 fi
 
-source ~/dev/bin/activate
+source /ml/bin/activate
 
 echo "Python version check passed. Continuing with script."
 echo "--------------------------------------------------"
